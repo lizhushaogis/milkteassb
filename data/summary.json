@@ -1,0 +1,99 @@
+{
+  "target_date": "20191113",
+  "city_results": [
+    {
+      "city": "北京",
+      "code": "bj",
+      "date": "20191113",
+      "csv_rows": 3435962,
+      "target_date_rows": 1669449,
+      "invalid_target_rows": 0,
+      "unique_child_grid_pairs": 1173623,
+      "active_tids_in_csv": 77075,
+      "grid_records": 433758,
+      "matched_active_tids": 77075,
+      "unmatched_active_tids": 0,
+      "unmatched_tid_examples": [],
+      "active_grid_output_count": 77075,
+      "hotspot_grid_output_count": 11632,
+      "grid_step_x": 0.002,
+      "grid_step_y": 0.002,
+      "hotspot_rule": "Getis-Ord Gi* z > 1.96 and Benjamini-Hochberg FDR q < 0.05"
+    },
+    {
+      "city": "上海",
+      "code": "sh",
+      "date": "20191113",
+      "csv_rows": 2826129,
+      "target_date_rows": 1388229,
+      "invalid_target_rows": 0,
+      "unique_child_grid_pairs": 953172,
+      "active_tids_in_csv": 62616,
+      "grid_records": 188990,
+      "matched_active_tids": 62616,
+      "unmatched_active_tids": 0,
+      "unmatched_tid_examples": [],
+      "active_grid_output_count": 62616,
+      "hotspot_grid_output_count": 6867,
+      "grid_step_x": 0.002,
+      "grid_step_y": 0.002,
+      "hotspot_rule": "Getis-Ord Gi* z > 1.96 and Benjamini-Hochberg FDR q < 0.05"
+    },
+    {
+      "city": "广州",
+      "code": "gz",
+      "date": "20191113",
+      "csv_rows": 3509856,
+      "target_date_rows": 1753881,
+      "invalid_target_rows": 0,
+      "unique_child_grid_pairs": 1184890,
+      "active_tids_in_csv": 45888,
+      "grid_records": 163347,
+      "matched_active_tids": 45888,
+      "unmatched_active_tids": 0,
+      "unmatched_tid_examples": [],
+      "active_grid_output_count": 45888,
+      "hotspot_grid_output_count": 4927,
+      "grid_step_x": 0.002,
+      "grid_step_y": 0.002,
+      "hotspot_rule": "Getis-Ord Gi* z > 1.96 and Benjamini-Hochberg FDR q < 0.05"
+    },
+    {
+      "city": "深圳",
+      "code": "sz",
+      "date": "20191113",
+      "csv_rows": 1701909,
+      "target_date_rows": 857052,
+      "invalid_target_rows": 0,
+      "unique_child_grid_pairs": 579881,
+      "active_tids_in_csv": 25163,
+      "grid_records": 43272,
+      "matched_active_tids": 25163,
+      "unmatched_active_tids": 0,
+      "unmatched_tid_examples": [],
+      "active_grid_output_count": 25163,
+      "hotspot_grid_output_count": 2562,
+      "grid_step_x": 0.002,
+      "grid_step_y": 0.002,
+      "hotspot_rule": "Getis-Ord Gi* z > 1.96 and Benjamini-Hochberg FDR q < 0.05"
+    }
+  ],
+  "point_results": {
+    "all_ssb_stores_wgs84": {
+      "points_in_activity_grids": 18596,
+      "points_in_hotspot_grids": 8696
+    },
+    "non_chain_ssb_wgs84": {
+      "points_in_activity_grids": 2384,
+      "points_in_hotspot_grids": 1100
+    },
+    "city_chain_ssb_wgs84": {
+      "points_in_activity_grids": 2138,
+      "points_in_hotspot_grids": 1062
+    },
+    "cross_city_chain_ssb_wgs84": {
+      "points_in_activity_grids": 14074,
+      "points_in_hotspot_grids": 6534
+    }
+  }
+}
